@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.gzy.slecdevicetest.MainActivity">
+
+
+    <Button
+        android:id="@+id/openRelay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="开关串口4设备的继电器"/>
+    <Button
+        android:id="@+id/openRelay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="开关继电器并发送韦根34数据"/>
+
+    <Button
+        android:id="@+id/openRelay4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="打开继电器并发送韦根数据"/>
+    <Button
+        android:id="@+id/closeRelay4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="关闭继电器"/>
+
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="结果"
+        android:textColor="#f0f"
+        android:textSize="16sp"/>
+</LinearLayout>
